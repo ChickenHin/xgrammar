@@ -3,9 +3,9 @@ name: Build Web-XGrammar
 on:
   workflow_dispatch:
   pull_request:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
 
 jobs:
   build:
