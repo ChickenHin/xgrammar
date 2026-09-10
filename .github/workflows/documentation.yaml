@@ -9,10 +9,10 @@ on:
         required: false
         default: ''
         type: string
-  pull_request:
-  push:
-    branches:
-      - main
+  # pull_request:
+  # push:
+  #   branches:
+  #     - main
   release:
     types:
       - published
